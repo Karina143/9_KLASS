@@ -1,0 +1,8 @@
+a = int(input("Введите 1 число: "))
+b = int(input("Введите 2 число: "))
+c = int(input("Введите 3 число: "))
+d = int(input("Введите 4 число: "))
+n = int(input("Введите 5 число: "))
+averenge = (a+b+c+d+n)/ 5
+    
+print("среднее арифметическое:", averenge)
