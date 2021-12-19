@@ -1,0 +1,10 @@
+def reverse(n):
+    result = 0
+    while n > 0:
+        n, r = divmod(n, 10)
+        result = 10 * result + r
+    return result
+    
+n = int(input("Введите число: "))
+result = reverse(n)
+print("Итог: ", result)
